@@ -117,6 +117,7 @@ header .navbar {
     border: 0;
     border: 2px solid var(--secondary-color);
     border-radius: 1rem;
+    background-color: transparent;
 }
 
 #hero .image img:hover {
