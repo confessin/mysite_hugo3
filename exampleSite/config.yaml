@@ -5,7 +5,7 @@ theme: hugo-profile
 
 Paginate: 3
 disqusShortname: mrafi
-googleAnalytics: G-VX86CC5S7V
+googleAnalytics: "UA-36794379-1"
 
 markup:
   goldmark:
