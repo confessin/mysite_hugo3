@@ -90,7 +90,7 @@ params:
     intro: "Hi, my name is"
     title: "Rafi."
     subtitle: "I am a Programmer, Software Architect and love all things Data."
-    content: "Seasoned Engineer / Data Science Manager. Specialize in Designing, developing, and evolving the modern data Science solutions and products. Understands business with a strong Engineering background and good mentoring experience."
+    content: "Seasoned Engineer / Data Science Manager. Specialize in designing, developing, and evolving the modern data science solutions and products. Understands business with a strong engineering background and good mentoring experience."
     image: /base.png
     work_image: /work_rafi.png
     education_image: /university_rafi.png
@@ -110,7 +110,7 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "More about me"
     image: '/fun_rafi.png'
     education_image: '/university_rafi.png'
     content: |-
@@ -247,24 +247,24 @@ params:
   projects:
     enable: true
     items:
-      # - title: Hugo Profile
-      #   content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile.png
-      #   featured:
-      #     name: Demo
-      #     link: https://hugo-profile.netlify.app
-      #   # badges:
-      #   #   - "Hugo"
-      #   #   - "Bootstrap"
-      #   #   - "Javascript"
-      #   links:
-      #     - icon: fa fa-envelope
-      #       url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/hugo-profile
-      #     - icon: fab fa-twitter
-      #       url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-      
+      - title: Wedding website
+        content: My Wedding website using scrollorama
+        image: /wedding_ss.png
+        featured:
+          name: Link
+          link: /wedding.html
+        badges:
+          - "HTML"
+          - "Javascript"
+      - title: VitaVim
+        content: VitaVim. Your Essential daily intake for Vim.
+        image: /vitavim.webp
+        featured:
+          name: Link
+          link: https://github.com/confessin/vitavim
+        badges:
+          - "HTML"
+          - "Javascript"
       # - title: Image Converter
       #   content:  A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
       #   image: /images/projects/converter.jpg
