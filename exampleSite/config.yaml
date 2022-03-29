@@ -5,7 +5,7 @@ theme: hugo-profile
 
 Paginate: 3
 disqusShortname: mrafi
-googleAnalytics: foo
+googleAnalytics: 308716048
 
 markup:
   goldmark:
@@ -41,7 +41,7 @@ Menus:
 params:
   title: "Mohammad Rafi"
   description: Software Engineer, Data Engineer, Full-stack Engineer
-  favicon: "/fav.png"
+  favicon: "/favicon.ico"
 
   theme:
     disableThemeToggle: false
@@ -89,9 +89,11 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Rafi."
-    subtitle: "Programmer, Software Architect, loves all things Data."
+    subtitle: "I am a Programmer, Software Architect and love all things Data."
     content: "Seasoned Engineer / Data Science Manager. Specialize in Designing, developing, and evolving the modern data Science solutions and products. Understands business with a strong Engineering background and good mentoring experience."
-    image: /avataaars.svg
+    image: /base.png
+    work_image: /work_rafi.png
+    education_image: /university_rafi.png
     button:
       enable: true
       name: "Resume (Linkedin)"
@@ -103,13 +105,14 @@ params:
         - icon: fab fa-twitter
           url: https://twitter.com/rafi0101
       customIcons:
-        - icon: /fav.png
+        - icon: /favicon.ico
           url: "https://mrafi.in"
   # About
   about:
     enable: true
     title: "About Me"
-    image: '/images/rafi.png'
+    image: '/fun_rafi.png'
+    education_image: '/university_rafi.png'
     content: |-
       I am a software developer with a passion for data at scale. I have a background in computer science. I am currently working as a Principal Architect at [Pitney Bowes](https://pb.com) in India. 
       

@@ -1,11 +1,15 @@
 {{ if .Site.Params.experience.enable | default false }}
 <section id="experience" class="py-5">
     <div class="container">
-        <h3 class="text-center">Experience</h3>
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
-                <div class="experience-container px-3 pt-2">
-                    <ul class="nav nav-pills mb-3 bg-transparent" id="pills-tab" role="tablist">
+        <h3 class="text-center">Work Experience</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-5">
+            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
+                <div class="image d-flex px-5">
+                    <img src="{{ .Site.Params.hero.work_image }}" class="img-thumbnail mx-auto rounded-circle" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                <ul class="nav nav-pills mb-3 bg-transparent" id="pills-tab" role="tablist">
                         {{ range $index, $element := .Site.Params.experience.items }}
                         {{ if (eq $index 0) }}
                         <li class="nav-item px-1 bg-transparent" role="presentation">
@@ -124,9 +128,9 @@
                         {{ end }}
                         {{ end }}
                     </div>
-                </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 {{ end }}

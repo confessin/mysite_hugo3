@@ -117,7 +117,6 @@ header .navbar {
     border: 0;
     border: 2px solid var(--secondary-color);
     border-radius: 1rem;
-    background-color: transparent;
 }
 
 #hero .image img:hover {
@@ -405,6 +404,7 @@ header .navbar {
     border: 2px solid var(--text-secondary-color) !important;
     transition: box-shadow .2s linear,opacity .2s linear;
     transition: transform 0.2s;
+    background-color: transparent;
 }
 
 #education .card .card-body {

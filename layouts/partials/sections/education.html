@@ -2,10 +2,16 @@
 <section id="education" class="py-5">
     <div class="container">
         <h3 class="text-center">Education</h3>
-        <div class="row justify-content-center py-5">
-            {{ $indexMenu := .Site.Params.education.index }}
+        <div class="bg-transparent row justify-content-center px-3 py-5">
+            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
+                <div class="image d-flex px-5">
+                    <img src="{{ .Site.Params.about.education_image }}" class="img-thumbnail mx-auto rounded-circle" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                {{ $indexMenu := .Site.Params.education.index }}
             {{ range $index, $element := .Site.Params.education.items }}
-            <div class="col-12 p-0">
+            <div class="ol-sm-12 col-md-8 col-lg-8">
                 <div class="row row align-items-center justify-content-center m-1 mb-4">
                     {{ if $indexMenu }}
                     <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
@@ -58,6 +64,7 @@
                 </div>
             </div>
             {{ end }}
+            </div>
         </div>
     </div>
 </section>
