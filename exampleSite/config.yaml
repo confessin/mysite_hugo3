@@ -284,7 +284,7 @@ params:
           - "Javascript"
       - title: Social Media AI agent
         content: An AI agent which tunes your Insta reels and YT shorts algorithm to only show based on your preferences. Combat Doomscrolling.
-        image: /wedding_ss.png
+        image: /Instagram-Logo.wine.png
         featured:
           name: Link
           link: https://www.linkedin.com/posts/linktorafi_ai-browserextensions-reinforcementlearning-activity-7344815870277292032-toOs
