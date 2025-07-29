@@ -45,7 +45,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" # light
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -89,8 +89,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Rafi."
-    subtitle: "I am a Programmer, Software Architect and love all things Data."
-    content: "Seasoned Engineer / Data Science Manager. Specialize in designing, developing, and evolving the modern data science solutions and products. Understands business with a strong engineering background and good mentoring experience."
+    subtitle: "I am a Seasoned Engineer, Software Architect and an Engineering manager."
+    content: "Engineering Leader with 17+ years of experience, more recently in architecting large-scale data and AI-driven systems, with a strong foundation in machine learning, LLM personalization, and data platform engineering. Proven track record in leading high-impact cross-functional teams, managing end-to-end lifecycle of AI and data products, and aligning technical strategies with growth outcomes. Expertise includes building scalable data platforms, managing training pipelines for LLM fine-tuning and reinforcement learning, and delivering AI-powered features such as plagiarism detection and personalized experiences. Passionate about applying AI to solve real world problems and mentoring teams to push boundaries of innovation."
     image: /base.png
     work_image: /work_rafi.png
     education_image: /university_rafi.png
@@ -114,9 +114,9 @@ params:
     image: '/fun_rafi.png'
     education_image: '/university_rafi.png'
     content: |-
-      I am a software developer with a passion for data at scale. I have a background in computer science. I am currently working as a Principal Architect at [Pitney Bowes](https://pb.com) in India. 
+      I am a software developer with a passion for data at scale. I have a background in computer science. I am currently working as an Enginnering Manager at [QuillBot](https://quillbot.com) in India. 
       
-      I like to tinker with electronics and constantly work on crappy ideas during my free time. I am a Father of 2 and a typical family man.
+      I like to tinker with electronics, a fan of MCPs and constantly work on crappy ideas during my free time. I am a Father of 2 and a typical family man.
     skills:
       enable: true
       title: "Here are my favourite tech stacks"
@@ -125,9 +125,7 @@ params:
         - "Java"
         - "Big data stacks on distributed computing"
         - "Big Data warehouses like Snowflake, Redshift, Bigquery, Cassandra"
-        - "Data science deployment tools like Sagemaker"
-        - "Visualization engines like PowerBI, tableau"
-        - "ETL Tools like "
+        - "AI specific toolsets like Langgraph, LangChain, n8n, Weaviate etc
     Domains:
       enable: true
       title: "asdad"
@@ -140,14 +138,33 @@ params:
   experience:
     enable: true
     items:
-      - job: "Principal Architect / Manager: Data Analytics, Data Science"
-        company: "Pitney Bowes"
-        companyUrl: "https://pb.com"
-        date: "Apr 2017 - present"
+      - job: " Engineering manager - Data Engineering and Growth"
+        company: "QuillBot"
+        companyUrl: "https://quillbot.com/"
+        date: "Jun 2022 - May 2025"
         featuredLink:
           enable: false
           name: "View the project"
-          url: "https://example.com"
+          url: "https://quillbot.com/plagiarism-checker"
+        content: |
+          Lead a high performing team comprising of Data Engineers, AI Engineers and BI developers
+        
+            - Managed AI platform for creating and training datasets, quality review process etc. Enabling LLM finetuning, classifications, reinforcement learning, RLHF etc.
+            - Developed a data platform for 50M MAU from the ground up and created features and products for personalization and core LLM model improvements.
+            - Streamlined Data Platform architecture with Snoplow, Iceberg, Kafka, DataFlow, Bigquery and Bigtable among others
+            - Established a data engineering roadmap, driving strategic growth and technical excellence
+            - Created a top-ranked plagiarism engine, achieving 3rd place in industry benchmarks.
+            - Lead cross-functional projects aligning data engineering with growth goals, mentoring team members.
+            - Transitioned into Growth focused Engineering management.
+      
+      - job: "Principal Architect / Manager: Data Analytics, Data Science"
+        company: "Pitney Bowes"
+        companyUrl: "https://pb.com"
+        date: "Apr 2017 - Jun 2022 "
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://pb.com"
         content: |
           Managing Data Analytics / Data Science team for Sendtech vertical of PB. Building high performance teams, creating DS models to help Business and improving products
         
@@ -265,32 +282,16 @@ params:
         badges:
           - "HTML"
           - "Javascript"
-      # - title: Image Converter
-      #   content:  A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-      #   image: /images/projects/converter.jpg
-      #   featured:
-      #     name: Demo
-      #     link: https://django-converter.herokuapp.com
-      #   # badges:
-      #   #   - "Django"
-      #   #   - "Bootstrap"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/converter
-      
-      # - title: Hugo Profile V2
-      #   content: A clean and simple Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile2.jpg
-      #   featured:
-      #     name: Demo V2
-      #     link: https://hugo-profile-2.netlify.app
-      #   # badges:
-      #   #   - "Hugo"
-      #   #   - "Bootstrap"
-      #   #   - "Javascript"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/HugoProfileV2
+      - title: Social Media AI agent
+        content: An AI agent which tunes your Insta reels and YT shorts algorithm to only show based on your preferences. Combat Doomscrolling.
+        image: /wedding_ss.png
+        featured:
+          name: Link
+          link: https://www.linkedin.com/posts/linktorafi_ai-browserextensions-reinforcementlearning-activity-7344815870277292032-toOs
+        badges:
+          - "ChatGPT"
+          - "MiniGPT-4"
+          - "Social Media"
 
   #Contact
   contact:
