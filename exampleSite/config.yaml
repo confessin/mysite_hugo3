@@ -125,9 +125,9 @@ params:
         - "Java"
         - "Big data stacks on distributed computing"
         - "Big Data warehouses like Snowflake, Redshift, Bigquery, Cassandra"
-        - "AI specific toolsets like Langgraph, LangChain, n8n, Weaviate etc
+        - "AI specific toolsets like Langgraph, LangChain, n8n, Weaviate etc"
     Domains:
-      enable: true
+      enable: false
       title: "asdad"
       items:
         - "Python"
