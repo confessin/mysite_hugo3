@@ -292,6 +292,15 @@ params:
           - "ChatGPT"
           - "MiniGPT-4"
           - "Social Media"
+      - title: Localized image Store as a replacement to google photos or icloud
+        content: Uses Immich primarily and then displays memories to a digital photo-frame 
+        image: /google_photos.png
+        featured:
+          name: Link
+          link: 
+        badges:
+          - "immich"
+          - "home-automation"
 
   #Contact
   contact:
