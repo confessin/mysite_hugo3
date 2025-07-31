@@ -116,7 +116,7 @@ params:
     content: |-
       I am a software developer with a passion for data at scale. I have a background in computer science. I am currently working as an Enginnering Manager at [QuillBot](https://quillbot.com) in India. 
       
-      I like to tinker with electronics, a fan of MCPs and constantly work on crappy ideas during my free time. I am a Father of 2 and a typical family man.
+      I like to tinker with electronics, a fan of SBCs and constantly work on crappy ideas during my free time. I am a Father of 2 and a typical family man.
     skills:
       enable: true
       title: "Here are my favourite tech stacks"
